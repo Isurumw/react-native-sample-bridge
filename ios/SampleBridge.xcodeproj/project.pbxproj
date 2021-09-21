@@ -42,8 +42,8 @@
 		6423831EA8574132BED9D8CC /* libPods-SampleBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-SampleBridge-SampleBridgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleBridge-SampleBridgeTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleBridge-SampleBridgeTests/Pods-SampleBridge-SampleBridgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SampleBridge/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A33E8E7226F8A00A00C1D351 /* SampleBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleBridge-Bridging-Header.h"; sourceTree = "<group>"; };
-		A33E8E7326F8A00A00C1D351 /* BridgeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeModule.swift; sourceTree = "<group>"; };
+		A33E8E7226F8A00A00C1D351 /* SampleBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SampleBridge-Bridging-Header.h"; path = "SampleBridge/SampleBridge-Bridging-Header.h"; sourceTree = "<group>"; };
+		A33E8E7326F8A00A00C1D351 /* BridgeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BridgeModule.swift; path = SampleBridge/BridgeModule.swift; sourceTree = "<group>"; };
 		A33E8E7926F8A55F00C1D351 /* BridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BridgeModule.m; path = SampleBridge/BridgeModule.m; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-SampleBridge-SampleBridgeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleBridge-SampleBridgeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-SampleBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleBridge.debug.xcconfig"; path = "Target Support Files/Pods-SampleBridge/Pods-SampleBridge.debug.xcconfig"; sourceTree = "<group>"; };
@@ -509,7 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SampleBridge;
-				SWIFT_OBJC_BRIDGING_HEADER = "SampleBridge-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleBridge/SampleBridge-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -535,7 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SampleBridge;
-				SWIFT_OBJC_BRIDGING_HEADER = "SampleBridge-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleBridge/SampleBridge-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
